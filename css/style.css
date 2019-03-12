@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Assistant|Gloria+Hallelujah');
+.main-down {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.title-down {
+  font-family: 'Roboto', sans-serif;
+  font-size: 54px;
+  margin: 0 auto;
+  max-width: 100%;
+  text-align: center;
+}
+
+.time-down {
+  font-family: 'Assistant', sans-serif;
+  text-align: center;
+  font-size: 32px;
+}
+
+.natal {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  width: 500px;
+  margin: 0 auto 33px;
+  padding: 0;
+  font-size: 48px;
+  font-family: 'Gloria Hallelujah', cursive;
+  max-width: 100%;
+}
+
+.novo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  width: 500px;
+  margin: 0 auto 33px;
+  padding: 0;
+  font-size: 48px;
+  font-family: 'Gloria Hallelujah', cursive;
+  max-width: 100%;
+}
+
+.natal li:after {
+  content: ':';
+  margin: 0 0 0 35px;
+}
+
+.natal li:nth-child(4):after {
+  content: none;
+  margin: 0 0 0 0px;
+}
+
+.novo li:after {
+  content: ':';
+  margin: 0 -5px 0 35px;
+}
+
+.novo li:nth-child(4):after {
+  content: none;
+  margin: 0 0 0 0px;
+}
+
+.title-time {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  width: 500px;
+  margin: 0 auto 1px;
+  padding: 0;
+  font-size: 31px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  max-width: 100%;
+}
+
+@media (max-width:500px) {
+  .title-down {
+    font-size: 44px;
+    margin-top: 31px;
+  }
+  .title-time {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 500px;
+    margin: 0 auto 1px;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    max-width: 100%;
+  }
+  .natal, .novo {
+    font-size: 24px;
+  }
+}
